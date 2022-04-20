@@ -63,6 +63,15 @@ export default function Index() {
           </div>
         </div>
 
+        <div className="mx-auto mt-16 max-w-7xl text-center">
+          <Link
+            to="/posts"
+            className="flex items-center justify-center rounded-md border border-transparent bg-white py-3 text-base font-medium text-yellow-700 shadow-sm hover:bg-yellow-50 sm:px-8"
+          >
+            Posts
+          </Link>
+        </div>
+
         <div className="mx-auto max-w-7xl py-2 px-4 sm:px-6 lg:px-8">
           <div className="mt-6 flex flex-wrap justify-center gap-8">
             {[
